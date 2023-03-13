@@ -1,1 +1,1 @@
-export declare function hello(who?: string): string;
+export { Volunteer } from "./types/volunteer";
