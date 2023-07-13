@@ -1,1 +1,1 @@
-export { Volunteer } from "./types/Volunteer";
+export * from "./types";
