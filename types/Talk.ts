@@ -8,7 +8,7 @@ import { Speaker } from "./Speaker";
 export type Talk = {
   id: number;
   conferenceHallId?: string;
-  title?: string;
+  title: string;
   level?: string;
   comments?: string;
   language?: string;
