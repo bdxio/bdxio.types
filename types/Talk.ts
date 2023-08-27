@@ -1,9 +1,9 @@
-import { Category } from "./Category";
-import { Edition } from "./Edition";
-import { Format } from "./Format";
-import { Slot } from "./Slot";
-import { Room } from "./Room";
-import { Speaker } from "./Speaker";
+import type { Category } from "./Category";
+import type { Edition } from "./Edition";
+import type { Format } from "./Format";
+import type { Slot } from "./Slot";
+import type { Room } from "./Room";
+import type { Speaker } from "./Speaker";
 
 export type Talk = {
   id: number;

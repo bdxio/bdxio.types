@@ -1,4 +1,4 @@
-import { Sponsor } from "./Sponsor";
+import type { Sponsor } from "./Sponsor";
 
 export type Offer = {
   id: number;

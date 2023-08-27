@@ -1,6 +1,6 @@
-import { Edition } from "./Edition";
-import { Media } from "./Media";
-import { Offer } from "./Offer";
+import type { Edition } from "./Edition";
+import type { Media } from "./Media";
+import type { Offer } from "./Offer";
 
 export type Sponsor = {
   id: number;

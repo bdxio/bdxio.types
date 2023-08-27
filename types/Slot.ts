@@ -1,7 +1,6 @@
-import { Format } from "./Format";
-import { Room } from "./Room";
-import { Talk } from "./Talk";
-
+import type { Format } from "./Format";
+import type { Room } from "./Room";
+import type { Talk } from "./Talk";
 
 export type Slot = {
   id: number;

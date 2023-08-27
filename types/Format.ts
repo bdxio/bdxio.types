@@ -1,4 +1,4 @@
-import { Slot } from "./Slot";
+import type { Slot } from "./Slot";
 
 export type Format = {
   id: number;

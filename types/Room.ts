@@ -1,5 +1,5 @@
-import { Talk } from "./Talk";
-import { Slot } from "./Slot";
+import type { Talk } from "./Talk";
+import type { Slot } from "./Slot";
 
 export type Room = {
   id: number;

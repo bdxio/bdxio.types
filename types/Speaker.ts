@@ -1,4 +1,4 @@
-import { Talk } from "./Talk";
+import type { Talk } from "./Talk";
 
 export type Speaker = {
   id: number;
