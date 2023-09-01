@@ -1,5 +1,6 @@
 import type { Room } from "./Room";
 import type { Talk } from "./Talk";
+import type { Edition } from "./Edition";
 
 export type Slot = {
   id: number;
@@ -8,7 +9,8 @@ export type Slot = {
   name: string;
   naturalId?: string;
   rooms?: Room[];
-  talks: Talk[];
+  talks?: Talk[];
+  editions?: Edition[];
   createdAt: string;
   puslishedAt: string;
   updatedAt: string;
