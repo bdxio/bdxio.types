@@ -6,7 +6,7 @@ export type Format = {
   name?: string;
   description?: string;
   duration: string;
-  talks: Talk[];
+  talks?: Talk[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

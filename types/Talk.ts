@@ -21,7 +21,7 @@ export type Talk = {
   category?: Category;
   slot?: Slot;
   room?: Room;
-  speakers: Speaker[];
+  speakers?: Speaker[];
   format?: Format;
   edition?: Edition;
   createdAt: string;

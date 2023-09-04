@@ -4,7 +4,7 @@ import type { Talk } from "./Talk";
 type ScheduleItem = {
   time: string;
   name: string;
-  talks: Talk[];
+  talks?: Talk[];
   rooms?: Room[];
 };
 

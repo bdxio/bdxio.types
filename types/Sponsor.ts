@@ -1,4 +1,3 @@
-import type { Edition } from "./Edition";
 import type { Media } from "./Media";
 import type { Offer } from "./Offer";
 
@@ -7,8 +6,7 @@ export type Sponsor = {
   name: string;
   url?: string;
   logo: Media;
-  offer?: Offer;
-  editions: Edition[];
+  offers?: Offer[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

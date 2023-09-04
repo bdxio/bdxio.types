@@ -6,9 +6,9 @@ export type Room = {
   name: string;
   naturalId?: string;
   iframeId?: string;
-  slots: Slot[];
-  talks: Talk[];
+  slots?: Slot[];
+  talks?: Talk[];
   createdAt: string;
-  puslishedAt: string;
+  publishedAt: string;
   updatedAt: string;
 };

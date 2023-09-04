@@ -12,6 +12,6 @@ export type Slot = {
   talks?: Talk[];
   editions?: Edition[];
   createdAt: string;
-  puslishedAt: string;
+  publishedAt: string;
   updatedAt: string;
 };
