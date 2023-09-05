@@ -9,7 +9,7 @@ export type Offer = {
   price: string;
   full: boolean;
   edition?: Edition;
-  sponsors: Sponsor[];
+  sponsors?: Sponsor[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
