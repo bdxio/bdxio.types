@@ -1,20 +1,22 @@
 {
   "name": "@bdxio/bdxio.types",
   "version": "1.1.2",
-  "description": "",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
   "scripts": {
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-import": "^2.28.1",
+    "typescript": "^5.2.2"
   },
   "repository": {
     "url": "git://github.com/bdxio/bdxio.types.git."

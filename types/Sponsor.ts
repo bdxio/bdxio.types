@@ -1,14 +1,12 @@
-import { Edition } from "./Edition";
-import { Media } from "./Media";
-import { Offer } from "./Offer";
+import type { Media } from "./Media";
+import type { Offer } from "./Offer";
 
 export type Sponsor = {
   id: number;
   name: string;
   url?: string;
   logo: Media;
-  offer?: Offer;
-  editions: Edition[];
+  offers?: Offer[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

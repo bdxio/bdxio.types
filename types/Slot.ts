@@ -1,19 +1,17 @@
-import { Format } from "./Format";
-import { Room } from "./Room";
-import { Talk } from "./Talk";
-
+import type { Room } from "./Room";
+import type { Talk } from "./Talk";
+import type { Edition } from "./Edition";
 
 export type Slot = {
   id: number;
   startSlot: string;
   endSlot: string;
-  name?: string;
+  name: string;
   naturalId?: string;
-  space?: string;
-  talks: Talk[];
-  rooms: Room[];
-  format?: Format;
+  rooms?: Room[];
+  talks?: Talk[];
+  editions?: Edition[];
   createdAt: string;
-  puslishedAt: string;
+  publishedAt: string;
   updatedAt: string;
 };

@@ -1,4 +1,3 @@
-
 type MediaFormat = {
   ext: string;
   url: string;

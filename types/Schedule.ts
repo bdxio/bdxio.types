@@ -1,11 +1,11 @@
-import { Talk } from "./Talk";
+import type { Room } from "./Room";
+import type { Talk } from "./Talk";
 
 type ScheduleItem = {
-  slot: string;
-  formattedSlot: string;
+  time: string;
   name: string;
-  talks: Talk[];
-  space?: boolean;
+  talks?: Talk[];
+  rooms?: Room[];
 };
 
 export type Schedule = ScheduleItem[];

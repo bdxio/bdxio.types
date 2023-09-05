@@ -1,4 +1,4 @@
-import { Slot } from "./Slot";
+import type { Talk } from "./Talk";
 
 export type Format = {
   id: number;
@@ -6,7 +6,7 @@ export type Format = {
   name?: string;
   description?: string;
   duration: string;
-  slots: Slot[];
+  talks?: Talk[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
