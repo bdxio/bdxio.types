@@ -27,5 +27,5 @@ export type Talk = {
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
-  type: 'standard' | 'opening' | 'closing';
+  type: "standard" | "opening" | "closing";
 };
