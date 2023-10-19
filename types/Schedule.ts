@@ -1,7 +1,7 @@
 import type { Room } from "./Room";
 import type { Talk } from "./Talk";
 
-type ScheduleItem = {
+export type ScheduleItem = {
   time: string;
   name: string;
   talks?: Talk[];
