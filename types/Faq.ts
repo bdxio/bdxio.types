@@ -1,6 +1,8 @@
+export const FAQTargets = ["speakers", "sponsors", "participants"] as const;
+
 export type FAQTarget = {
   id: number;
-  target: "speakers" | "sponsors" | "participants";
+  target: (typeof FAQTargets)[number];
   description?: string;
   createdAt: string;
   publishedAt: string;
