@@ -1,6 +1,7 @@
 export type { Category } from "./Category";
 export type { Edition } from "./Edition";
 export type { FAQQuestion, FAQTarget } from "./Faq";
+export { FAQTargets } from "./Faq";
 export type { Format } from "./Format";
 export type { Media } from "./Media";
 export type { Offer } from "./Offer";
