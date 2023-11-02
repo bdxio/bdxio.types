@@ -1,11 +1,6 @@
-export const faqTargets = ["speakers", "sponsors", "participants"] as const;
-
-type FAQTargets = (typeof faqTargets)[number]
-
-
 export type FAQTarget = {
   id: number;
-  target: FAQTargets;
+  target: "speakers" | "sponsors" | "participants";
   description?: string;
   createdAt: string;
   publishedAt: string;
