@@ -6,7 +6,7 @@ export type Sponsor = {
   name: string;
   url?: string;
   logo: Media;
-  offers?: Offer[];
+  offers: Offer[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

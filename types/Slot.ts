@@ -8,9 +8,9 @@ export type Slot = {
   endSlot: string;
   name: string;
   naturalId?: string;
-  rooms?: Room[];
-  talks?: Talk[];
-  editions?: Edition[];
+  rooms: Room[];
+  talks: Talk[];
+  editions: Edition[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

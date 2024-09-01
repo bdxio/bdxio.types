@@ -12,7 +12,7 @@ export type FAQQuestion = {
   theme?: string;
   title: string;
   answer: string;
-  faq_target?: FAQTarget;
+  faq_target: FAQTarget;
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

@@ -12,7 +12,7 @@ export type Speaker = {
   company?: string;
   linkedin?: string;
   website?: string;
-  talks?: Talk[];
+  talks: Talk[];
   createdAt: string;
   updatedAt: string;
   publishedAt: string;

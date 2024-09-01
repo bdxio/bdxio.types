@@ -16,7 +16,7 @@ export type Category = {
   conferenceHallId?: string;
   description?: string;
   color: HEX;
-  talks?: Talk[];
+  talks: Talk[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

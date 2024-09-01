@@ -13,7 +13,7 @@ export type Format = {
   name: FormatName;
   description?: string;
   duration: string;
-  talks?: Talk[];
+  talks: Talk[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

@@ -8,8 +8,8 @@ export type Offer = {
   description: string;
   price: string;
   full: boolean;
-  edition?: Edition;
-  sponsors?: Sponsor[];
+  edition: Edition;
+  sponsors: Sponsor[];
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
