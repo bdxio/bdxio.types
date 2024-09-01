@@ -9,6 +9,8 @@ export type Edition = {
   talks?: Talk[];
   slots?: Slot[];
   offers?: Offer[];
+  youtubePlaylistUrl?: string;
+  picturesGalleryUrl?: string;
   createdAt: string;
   publishedAt: string;
   updatedAt: string;

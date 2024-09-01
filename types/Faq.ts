@@ -1,14 +1,6 @@
-export const faqTargets = ["speakers", "sponsors", "participants"] as const;
-
-type FAQTargets = (typeof faqTargets)[number]
-
-export function isFAQTarget(value: any): value is FAQTargets {
-  return faqTargets.includes(value);
-}
-
 export type FAQTarget = {
   id: number;
-  target: (typeof faqTargets)[number];
+  target: "speakers" | "sponsors" | "participants";
   description?: string;
   createdAt: string;
   publishedAt: string;
