@@ -1,9 +1,16 @@
 import type { Talk } from "./Talk";
 
+type FormatName =
+  | "Quickie"
+  | "Conférence"
+  | "Hands on lab"
+  | "Keynote de fermeture"
+  | "Keynote d'ouverture";
+
 export type Format = {
   id: number;
   conferenceHallId?: string;
-  name?: string;
+  name: FormatName;
   description?: string;
   duration: string;
   talks?: Talk[];
