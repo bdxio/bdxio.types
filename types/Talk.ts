@@ -23,6 +23,7 @@ export type Talk = {
   speakers?: Speaker[];
   format?: Format;
   edition?: Edition;
+  day?: number;
   createdAt: string;
   publishedAt: string;
   updatedAt: string;
